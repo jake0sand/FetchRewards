@@ -5,7 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jakey.fetchrewards.data.remote.RetrofitInstance
 import com.jakey.fetchrewards.data.remote.responses.FetchUser
 import com.jakey.fetchrewards.domain.FetchRepository
 import kotlinx.coroutines.launch

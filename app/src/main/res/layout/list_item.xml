@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_marginVertical="16dp"
     android:layout_marginHorizontal="16dp"
-    app:cardBackgroundColor="@color/fetch_purple"
+    app:cardBackgroundColor="@color/fetch_orange"
     app:cardCornerRadius="10dp"
     android:elevation="15dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             android:text="@string/tools_id"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             android:text="@string/tools_listId"
             app:layout_constraintStart_toStartOf="@+id/tv_id"
             app:layout_constraintTop_toBottomOf="@+id/tv_id" />
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/tv_id"
             app:layout_constraintTop_toBottomOf="@+id/tv_listId"
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             android:layout_marginStart="4dp"
             app:layout_constraintStart_toEndOf="@+id/tv_id"
             app:layout_constraintTop_toTopOf="@+id/tv_id" />
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             android:layout_marginStart="4dp"
             app:layout_constraintStart_toEndOf="@+id/tv_listId"
             app:layout_constraintTop_toTopOf="@+id/tv_listId" />
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            android:textColor="@color/fetch_orange"
+            android:textColor="@color/fetch_purple"
             android:layout_marginStart="4dp"
             app:layout_constraintStart_toEndOf="@+id/tv_name"
             app:layout_constraintTop_toTopOf="@+id/tv_name" />
